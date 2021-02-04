@@ -1,7 +1,7 @@
-language: ruby
+language: node_js
 os:
-  - linux
-dist: xenial
+  - windows
+dist: trusty
 sudo: true
 services:
   - docker
