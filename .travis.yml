@@ -4,7 +4,6 @@ node_js:
 services:
   - docker
 before_install:
-  - npm install -g
   - docker build -t souravdeveloper/docker-react -f Dockerfile.dev .
 script:
   - docker run souravdeveloper/docker-react npm  test -- --coverage
