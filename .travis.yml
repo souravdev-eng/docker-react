@@ -1,7 +1,7 @@
 language: node_js
-os:
-  - windows
-dist: trusty
+node_js:
+  - 14.15.1
+cache: npm
 sudo: true
 services:
   - docker
